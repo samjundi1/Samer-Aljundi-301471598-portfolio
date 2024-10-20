@@ -1,0 +1,47 @@
+/* 
+File Name: services.module.css
+Student Name: Samer Aljundi
+Student ID: 301471598
+Created on Date: 25 SEP 2024
+Last update Date: 29 SEP 2024
+*/
+
+.servicesContainer {
+  padding: 20px;
+  text-align: center;
+}
+.servicesTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.servicesList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.serviceItem {
+  width: 300px;
+  max-width: 300px;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+
+}
+.serviceItem:hover {
+  transform: scale(1.05);
+}
+.serviceImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.serviceDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+}

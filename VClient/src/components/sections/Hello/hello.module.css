@@ -1,0 +1,31 @@
+/* 
+File Name: hello.module.css
+Student Name: Samer Aljundi
+Student ID: 301471598
+Created on Date: 25 SEP 2024
+Last update Date: 29 SEP 2024
+*/
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .image {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .description {
+    /*max-width: 24ch;*/
+    max-width: 500px;
+  }
+  
